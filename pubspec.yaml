@@ -1,0 +1,50 @@
+name: sanskrit_names_suggester_v2
+description: "A project to hone my skill"
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 0.0.1+1
+
+environment:
+  sdk: ^3.1.1
+
+dependencies:
+  collection: ^1.1.0
+  leak_tracker: ^10.0.5
+  leak_tracker_flutter_testing: ^3.0.5
+  lints: ^5.0.0
+  material_color_utilities: ^0.11.1
+  meta: ^1.15.0
+  stack_trace: ^1.11.1
+  string_scanner: ^1.2.0
+  test_api: ^0.7.2
+  vm_service: ^14.2.5
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+
+  english_words: ^4.0.0
+  provider: ^6.0.0
+  sanskrit_names: '>=0.0.1 <1.0.0'
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
